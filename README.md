@@ -31,7 +31,8 @@ cd cli-password-generator-go
 ## Usage
 
 ```sh
-go run generatepwd.go -length=10 -special=true
+go run generatepwd.go -length=10 -special -save // generate and save a password with special char and length of 10
+go run generatepwd.go // generate a password without special char and of a lenght of 10, terminal will ask if you want to save the generated password
 ```
 
 ## Author
