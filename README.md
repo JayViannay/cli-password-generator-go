@@ -35,6 +35,10 @@ go run generatepwd.go -length=10 -special -save // generate and save a password 
 go run generatepwd.go // generate a password without special char and of a lenght of 10, terminal will ask if you want to save the generated password
 ```
 
+----- or ------
+Use the app directly with the binary file in the bin folder (only for mac)
+ 
+
 ## Author
 
 👤 **JayViannay**
